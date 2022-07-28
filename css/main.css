@@ -1,0 +1,108 @@
+/* Global */
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background: rgb(9,9,15);
+    background: -moz-linear-gradient(90deg, rgba(9,9,15,1) 0%, rgba(15,52,96,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9,9,15,1) 0%, rgba(15,52,96,1) 100%);
+    background: linear-gradient(90deg, rgba(9,9,15,1) 0%, rgba(15,52,96,1) 100%);
+    color: #fff;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(15,52,96,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightgreen;
+    border-radius: 9em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: lightgreen;
+}
+
+/* Seceltion */
+
+::-moz-selection {
+    background-color: lightgreen !important;
+}
+
+::selection {
+    background-color: lightgreen !important;
+}
+
+/* Link */
+
+.link-main, a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-main:hover, .link-main:visited {
+    text-decoration: none;
+    color: #ffffff8f;
+}
+
+.link-secondary {
+    text-decoration: none;
+    color: lightgreen !important;
+    font-size: 20px;
+}
+
+.link-secondary:hover, .link-secondary:visited {
+    text-decoration: none;
+    color: rgb(113, 179, 113) !important;
+}
+
+/* Text */
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sub-h {
+    font-size: 30px;
+}
+
+.contacts {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Card */
+
+.card-block {
+    background: #ce8f9e2f;
+    border: 2px solid rgb(124, 207, 124);
+    border-radius: 30px;
+}
+
+.card-img {
+    border-radius: 15px;
+    max-width: 30vw;
+}
+
+.link-img {
+    height: 20px;
+}
+
+/* Social */
+
+.social {
+    height: 30px;
+}
