@@ -106,3 +106,7 @@ h2 {
 .social {
     height: 30px;
 }
+
+.github-corner > svg {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
