@@ -13,12 +13,14 @@ left: 0;
 right: 0;
 top: 0;
 }
+
+/* Glow-эффект текста отрублен нахуй по причине ЛАГАЕТ ПИЗДЕЦ на телефонах((*/
+
 .glow {
-  /* Отключено по причине ЛАГАЕТ ПИЗДЕЦ на телефонах
-  color: #fff;
+/*  color: #fff;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate; */ 
+  animation: glow 1s ease-in-out infinite alternate; */
 }
 /*
 @-webkit-keyframes glow {
@@ -51,7 +53,8 @@ overflow-x: scroll;
 }
 .item {
 border-radius: 1em;
-background-color: #ededed;
+background: rgb(255,255,255);
+background: linear-gradient(222deg, rgba(255,255,255,1) 11%, rgba(222,222,222,1) 100%);
 color: #2e2e2e; /*
 -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
@@ -134,8 +137,8 @@ padding: 1em;
 <body>
 <div class="cocainer">
 <div class="block1">
-<h1 class="glow" id="quote">...</h1>
-<h3 class="glow" id="name"></h3>
+<h1 class="glow" id="quote">включи джаваскрипт долбоёб государство всё равно найдёт тебя если захочет</h1>
+<h3 class="glow" id="name">- государь</h3>
 </div>
 <div class="pad">
 <h1>Отзывы к товару <span class="counter">10</span></h1>
@@ -192,6 +195,12 @@ padding: 1em;
 <h3>Никита Фурсенко</h3>
 <p>пиздатое агентство по фронтенду, рекомендую всем, вместе с сайтом дают ещё и на клык</p>
 </div>
+<div class="item">
+<img src="avatars/ziga.jpg"></img>
+<h3>Иван Загайнов</h3>
+<p>ниче такая сосочка! ставлю 🥒 из 10</p>
+</div>
+
 
 </div>
 <div class="pad specs">
@@ -220,7 +229,7 @@ Made in Russia</p></h3>
 
 </div>
 <div class="footer">
-<p>c0ca1n3rs' web project, Version 2. Credits to <a href="https://t.me/c0ca1n3r">@c0ca1n3r</a></p>
+<p>c0ca1n3rs' web project, Version 2b2. Credits to <a href="https://t.me/c0ca1n3r">@c0ca1n3r</a></p>
 </div>
 </div>
 <script>
