@@ -1,0 +1,312 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>c0ca1n3rw3b</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+.cocainer {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+}
+
+/* здесь эффект глоу включен но это тестовая страница */
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; 
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.block1 {
+padding: 10%;
+background: rgb(0,0,0);
+background: linear-gradient(40deg, rgba(0,0,0,1) 28%, rgba(25,0,23,1) 59%); 
+color: #c100e8;
+left: 0;
+right: 0;
+top: 0;
+}
+.block1 h1, h2, h3 {
+font-family: 'Roboto Mono', monospace;
+}
+.block2 {
+display: flex;
+gap: 2em;
+background-color: white;
+justify-content: flex-start;
+padding: 2em;
+overflow-x: scroll;
+}
+.item {
+border-radius: 1em;
+background: rgb(255,255,255);
+background: linear-gradient(222deg, rgba(255,255,255,1) 11%, rgba(222,222,222,1) 100%);
+color: #2e2e2e; /*
+-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+outline: 0.1em #fff solid; */
+min-width: 20em;
+max-width: 20em;
+max-height: 30em;
+min-height: 20em;
+padding: 1em;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.item img {
+align-self: center;
+border-radius: 100%;
+width: 10em;
+height: 10em;
+margin: 1em;
+}
+.item p {
+font-weight: 800;
+font-family: 'Roboto Mono', monospace;
+}
+.pad h1, h2, h3, h4, p {
+padding-left: 1em;
+padding-right: 1em;
+font-family: 'Roboto Mono', monospace;
+}
+
+.photos {
+padding-left: 1em;
+padding-right: 1em;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background: rgb(255,201,251);
+background: linear-gradient(48deg, rgba(255,201,251,1) 0%, rgba(255,255,255,1) 100%);
+}
+.footer {
+padding-left: 1em;
+padding-right: 1em;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+color: #dbdbdb;
+background: rgb(51,0,47);
+background: linear-gradient(48deg, rgba(51,0,47,1) 0%, rgba(0,0,0,1) 100%);
+}
+.footer h1, h2, h3, h4, p {
+font-family: 'Roboto Mono', monospace;
+}
+
+.photos img {
+width: 20em;
+height: 20em;
+padding: 2em;
+border-radius: 1em;
+}
+.photos h1, h2, h3, h4, p {
+font-family: 'Roboto Mono', monospace;
+}
+.counter {
+padding: 0.2em;
+border-radius: 0.3em;
+color: white;
+padding-left: 0.5em;
+padding-right: 0.5em;
+background: rgb(255,0,170);
+background: linear-gradient(48deg, rgba(255,0,170,1) 0%, rgba(255,0,0,1) 100%); 
+}
+.specs {
+background: rgb(231,231,231);
+background: linear-gradient(90deg, rgba(231,231,231,1) 11%, rgba(255,255,255,1) 44%);
+padding: 1em;
+}
+
+</style>
+</head>
+<body>
+<div class="cocainer">
+<div class="block1">
+<h1 class="glow" id="quote">включи джаваскрипт долбоёб государство всё равно найдёт тебя если захочет</h1>
+<h3 class="glow" id="name">- государь</h3>
+</div>
+<div class="pad">
+<h1>Отзывы к товару <span class="counter">10</span></h1>
+<p><i>Вы можете пролистать этот список... -></i></p>
+</div>
+<div class="block2">
+<div class="item">
+<img src="avatars/avatar.jpg"></img>
+<h3>Юрий Киселев (это я)</h3>
+<p>пиздец какую же хуйню я сделал это пиздец</p>
+</div>
+<div class="item">
+<img src="avatars/obcn.jpg"></img>
+<h3>ОБЭЦЭНЕЙ КАПО</h3>
+<p>Ты долбаёб</p>
+</div>
+<div class="item">
+<img src="avatars/partyboy.jpg"></img>
+<h3>Влад Смирнов</h3>
+<p>5/5, заказывал вишню поесть, приехала пьяная вишня, всё понравилось</p>
+</div>
+<div class="item">
+<img src="avatars/jijka.jpg"></img>
+<h3>Юри Нацуки</h3>
+<p>это же какую дрянь надо долбить, чтобы такое производить начать. охуенно, бесспорно, куплю ещё, но вы ебанутые</p>
+</div>
+<div class="item">
+<img src="avatars/thrashaholic.png"></img>
+<h3>Руслан Крупица</h3>
+<p>NIGGA SODA</p>
+</div>
+<div class="item">
+<img src="avatars/ivan.jpg"></img>
+<h3>Иван Гребенюк</h3>
+<p>Во время секса хуй зажовывает, после писюн щиплет как все проходит в хую будто термиты жгет пиздец как воооооообщем советую всем советую1000000000/0</p>
+</div>
+<div class="item">
+<img src="avatars/shmall.jpg"></img>
+<h3>Алексей Шепелев</h3>
+<p>Просрочка</p>
+</div>
+<div class="item">
+<img src="avatars/maks.jpg"></img>
+<h3>Максим Мерзляков</h3>
+<p>с виду тухлый но по вкусу заебись</p>
+</div>
+<div class="item">
+<img src="avatars/pavlov.jpg"></img>
+<h3>Артем Павлов</h3>
+<p>приторно сладкий</p>
+</div>
+<div class="item">
+<img src="avatars/fursenko.jpg"></img>
+<h3>Никита Фурсенко</h3>
+<p>пиздатое агентство по фронтенду, рекомендую всем, вместе с сайтом дают ещё и на клык</p>
+</div>
+<div class="item">
+<img src="avatars/ziga.jpg"></img>
+<h3>Иван Загайнов</h3>
+<p>ниче такая сосочка! ставлю 🥒 из 10</p>
+</div>
+
+
+</div>
+<div class="pad specs">
+<h1><a href="https://t.me/c0ca1n3r">киселятор</a> - Описание товара</h1>
+<h3><p>Киселятор GT3 - характеристики:<br>
+<br>
+Произведено: 22 September 2005<br>
+Фары: хуй знает зелено-калового цвета вроде<br>
+Вес: 76 кг.<br>
+Рост: 176<br>
+Тип личности: ENFP<br>
+Не бита, не крашена<br>
+<br>
+Made in Russia</p></h3>
+</div>
+<div class="pad">
+<h1>Фотографии товара <span class="counter">6</span></h1>
+</div>
+<div class="photos">
+<img src="photos/1.jpg"></img>
+<img src="photos/2.jpg"></img>
+<img src="photos/3.jpg"></img>
+<img src="photos/4.jpg"></img>
+<img src="photos/5.jpg"></img>
+<img src="photos/6.jpg"></img>
+
+</div>
+<div class="footer">
+<p>c0ca1n3rs' web project, Version 2b2. Credits to <a href="https://t.me/c0ca1n3r">@c0ca1n3r</a></p>
+</div>
+</div>
+<script>
+const quotes = [
+  "тяжело в лечении - легко в гробу",
+  "армейский резерв, стройбат, тактика, боекомплект - именно так называются мясные консервы в магазине Глобус",
+  "скажите гранатомёту что плод надёжно защищён в животике у мамы",
+  "посетители детской поликлиники, вы совсем долбаёбы?",
+  "я создал эту хуйню и теперь всем пиздец",
+  "все люди на земле - братья, но никак не сёстры",
+  "повторение - мать учения, сдохла нахуй",
+  "почему можно сосать член среди тц",
+  "амфетамин ц чтобы не было морщин на лице",
+  "мама за 49 рублей в пятерочке продаётся, ее можно кипятком залить и съесть, сомневаюсь, что твоей матери такое понравится",
+  "пока ты к девочкам лип я ловил бэд трип",
+  "в чужую церковь со своим мефедроном не ходят",
+  "сосала за айфон получила тамагоч",
+  // Добавьте здесь другие цитаты по вашему усмотрению
+];
+
+// Список имен
+const names = [
+  "- лудоман2005",
+  "- блядомразь2005",
+  "- c0ca1n3r",
+  "- будни пиздабола",
+  "- александр шпак",
+  "- 4:20",
+  "- уёбище на связи",
+  "- catweird",
+  "- dj total razjebass",
+  "- юри киселев",
+  "- petyabat",
+  "- ctwrd",
+  "- catwared",
+  "- izzytopdevelop",
+  "- y.kiselev",
+  "- 1ntral1gat0r",
+  "- кисельGPT",
+  "- кисель",
+  "- киселек",
+  "- киселеныш",
+  "- киселятор",
+  "- киселитлер",
+  // Добавьте здесь другие имена по вашему усмотрению
+];
+
+// Функция для выбора случайной цитаты и ее отображения
+function showRandomQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  //const quoteElement = document.getElementById("quote");
+  //quoteElement.textContent = quotes[randomIndex];
+  return "«" + quotes[randomIndex] + "»";
+}
+
+// Функция для выбора случайного имени и его отображения
+function showRandomName() {
+  const randomIndex = Math.floor(Math.random() * names.length);
+  const nameElement = document.getElementById("name");
+  nameElement.innerHTML = names[randomIndex] + " | Telegram канал: <a href='https://t.me/existence_shop'>@existence_shop</a>";
+}
+document.getElementById("quote").innerHTML = "";
+var i = 0;
+var txt = showRandomQuote();
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+//showRandomQuote();
+showRandomName();
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("quote").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
+</script>
+</body>
+</html>
